@@ -5,8 +5,8 @@ import ContextProvider from "@/context/ContextProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Aurora AI",
-  description: "Aurora AI is a powerful AI developed by Xanmoy",
+  title: "SAGE",
+  description: "SAGE is a powerful AI developed by Xanmoy",
 };
 
 
