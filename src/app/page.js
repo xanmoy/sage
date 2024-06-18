@@ -9,17 +9,25 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-black text-white">
       <Navbar />
       <div className='flex flex-col lg:flex-row items-center justify-center h-screen p-6 lg:p-80 '>
-        <div className='flex-1 lg:pl-[85px] pt-10 text-left flex flex-col justify-center lg:justify-start'>
+        <div className='flex-2 lg:pl-[85px] pt-10 text-left flex flex-col justify-center lg:justify-start'>
           
           {/* <div class="Welcome-box w-box py-[8px] lg:ml-0 px-[7px] border border-indigo-600 opacity-[0.9] m-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="text-indigo-600 mr-[10px] h-5 w-5"><path fill-rule="evenodd" d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z" clip-rule="evenodd"></path></svg><h1 class="Welcome-text text-indigo-400 text-[13px]"><a href="/search">Introducing New Sage</a></h1></div> */}
-          <h2 className="zero-text pb-0 lg:pb-0 font-semibold lg:text-6xl text-5xl text-white mb-6">
+          {/* <h2 className="zero-text pb-0 lg:pb-0 font-semibold lg:text-6xl text-5xl text-white mb-6">
             Introducing
-          </h2>
-          <h2 className="zero-text pb-0 lg:pb-0 font-semibold	text-5xl lg:text-6xl text-white mb-6">
+          </h2> */}
+          <h2 className="text-transparent font-roboto bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-600 pb-2 font-semibold text-7xl lg:text-8xl mb-2">
             Sage
           </h2>
           
-          <span className="mb-2">
+          <p className="mb-2 font-semibold text-1xl">
+            Supercharge your creativity and productivity
+          
+          </p>
+          <p className="mb-2">
+            Chat to start writing, planning, learning and more with Sage
+          
+          </p>
+          {/* <span className="mb-2">
             Sage is a powerful AI developed by
             <a href="https://xanmoy.me" className='text-white underline'> Xanmoy</a>
             
@@ -28,7 +36,7 @@ export default function Home() {
          
             Get answers to your questions, help with programming, and much more.
           
-          </span>
+          </span> */}
           <div className='flex flex-row justify-start lg:justify-start p-6 pl-0 mt-3 lg:mt-0'>
             <Link href="/chat" className='btn try-ai-btn bg-white text-black font-bold text-xl  py-3 px-6 lg:py-4 lg:px-8 hover:bg-zinc-300'>
               Try Sage ↗
@@ -39,7 +47,7 @@ export default function Home() {
 
 
 
-        <div className='flex-1 flex justify-center'>
+        <div className='flex-2 flex justify-center'>
           <Image
             src={'/sage-cover.jpeg'}
             alt="hero"
@@ -50,7 +58,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="text-center mb-20">
@@ -111,7 +119,7 @@ export default function Home() {
             <p className="text-gray-300">Developer</p>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </div>
   );
